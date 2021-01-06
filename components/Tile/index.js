@@ -1,5 +1,5 @@
-import { createGlobalStyle } from 'styled-components'
-import { color } from './Utils'
+import { createGlobalStyle } from "styled-components";
+import { color } from "./Utils";
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -10,9 +10,9 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     margin: 0;
     background-color: ${color.black};
-    font-family: Chivo, sans-serif;
+    font-family: Inter, sans-serif;
     color: ${color.gray0};
-    font-size: 1.4em;
+    font-size: 1.2em;
     line-height: 1.5;
   }
 
@@ -31,11 +31,11 @@ export const GlobalStyle = createGlobalStyle`
   }
 `;
 
-export * from './Button';
-export * from './Input';
-export * from './Icon';
-export * from './Modal';
-export * from './Tooltip';
-export * from './Alert';
-export * from './Table';
-export * from './Utils';
+export * from "./Button";
+export * from "./Input";
+export * from "./Icon";
+export * from "./Modal";
+export * from "./Tooltip";
+export * from "./Alert";
+export * from "./Table";
+export * from "./Utils";

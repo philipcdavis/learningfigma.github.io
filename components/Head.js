@@ -3,10 +3,10 @@ import NextHead from "next/head";
 import { NextSeo } from "next-seo";
 
 const Head = function (props) {
-  const title = props.title ? props.title : "React for Design";
+  const title = props.title ? props.title : "Learning Figma";
   const description = props.description
     ? props.description
-    : "A React Course for Designers. React is a powerful design tool. There's a lot you can do with it that would be difficult with a traditional design application. Prototyping with realistic data sets, creating complex interactions and shared component libraries are just the tip of the iceberg.";
+    : "Learn Figma with Georgia";
   const image = props.image
     ? props.image
     : "https://farm2.staticflickr.com/1849/43676135265_5d6be8f15a_o.png";
@@ -14,7 +14,7 @@ const Head = function (props) {
     <>
       <NextHead>
         <link
-          href="https://fonts.googleapis.com/css?family=Chivo:400,700"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
           rel="stylesheet"
         />
         <link rel="icon" type="image/svg+xml" href="/icon-thick.svg" />

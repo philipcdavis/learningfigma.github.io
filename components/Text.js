@@ -1,19 +1,22 @@
-import { Heading, Text } from 'rebass/styled-components'
-import styled from 'styled-components'
-import { colorChange, hexToRGB } from '../components/Utils'
-import { color } from './Tile'
+import { Heading, Text } from "rebass/styled-components";
+import styled from "styled-components";
+import { colorChange } from "../components/Utils";
+import { color } from "./Tile";
 
 export const RainbowHeading = styled(Heading)`
   animation: ${colorChange("color")} 10s infinite alternate;
-`
+`;
 
 export const RainbowHr = styled.hr`
   animation: ${colorChange("border-color", 0.3)} 10s infinite alternate;
-`
+  border: none;
+  border-top: 2px solid white;
+  border-width: 2px;
+`;
 
 export const P = styled(Text)`
   margin-bottom: 40px;
-`
+`;
 
 export const Markdown = styled.div`
   font-size: 1.2rem;
@@ -59,7 +62,6 @@ export const Markdown = styled.div`
 
   & h1 {
     font-size: 1.4em;
-    text-align: center;
     margin-bottom: 2em;
     margin-top: 0;
     font-weight: bold;
@@ -67,7 +69,6 @@ export const Markdown = styled.div`
 
   & h2 {
     font-size: 1.2em;
-    text-align: center;
     margin-top: 2em;
   }
 
@@ -131,7 +132,7 @@ export const Markdown = styled.div`
   & hr {
     border: none;
     border-bottom: 2px solid ${color.gray2};
-    width: 70%;
+    width: 40%;
     margin-top: 2.5em;
     margin-bottom: 2.5em;
   }
