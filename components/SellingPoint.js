@@ -6,7 +6,7 @@ import { Box, Text } from "rebass/styled-components";
 const SellingPoint = function (props) {
   return (
     <Box mb={[3, 4]}>
-      <Numeral color={props.color} size={28}>
+      <Numeral color={props.color} size={34}>
         {props.number}
       </Numeral>
       <StyledHeading fontSize={[2, 3]}>{props.label}</StyledHeading>
@@ -23,6 +23,7 @@ const Numeral = styled.div`
   font-weight: bold;
   color: ${color.black};
   text-align: center;
+  padding-top: 3px;
 `;
 
 const StyledHeading = styled(Text)`

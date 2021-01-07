@@ -3,9 +3,7 @@ import Head from "../components/Head";
 import { GlobalStyle } from "../components/Tile";
 import Nav from "../components/Nav";
 import Intro from "../components/Intro";
-import PurchaseCard from "../components/PurchaseCard";
-import Lessons from "../components/Lessons";
-import FAQ from "../components/FreqAskedQuestions";
+import Gradients from "../components/Gradients.js";
 import Footer from "../components/Footer";
 import { RainbowHr } from "../components/Text";
 import { Box } from "rebass/styled-components";
@@ -15,7 +13,7 @@ export default function Home() {
     <React.Fragment>
       <Head title="Learning Figma" description="" />
       <GlobalStyle />
-
+      <Gradients />
       <Box>
         <Box px={[3, 3, 6]} py={[5, 5]}>
           <Box width={["100%", "600px"]} mt={4} mx="auto">
