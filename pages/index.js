@@ -5,7 +5,6 @@ import Nav from "../components/Nav";
 import Intro from "../components/Intro";
 import Gradients from "../components/Gradients.js";
 import Footer from "../components/Footer";
-import { RainbowHr } from "../components/Text";
 import { Box } from "rebass/styled-components";
 
 export default function Home() {

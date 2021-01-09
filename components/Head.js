@@ -6,7 +6,7 @@ const Head = function (props) {
   const title = props.title ? props.title : "Learning Figma";
   const description = props.description
     ? props.description
-    : "Learn Figma with Georgia";
+    : "A Free Email Course for Beginners";
   const image = props.image ? props.image : "learningfigma.com/assets/og.png";
   return (
     <>
