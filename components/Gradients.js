@@ -25,6 +25,7 @@ const Container = styled(Box)`
   right: 0;
   z-index: -1;
   height: 500px;
+  overflow: hidden;
 `;
 
 const Blur = styled.div`
