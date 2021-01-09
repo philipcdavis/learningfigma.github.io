@@ -16,7 +16,7 @@ const Intro = () => (
     <Box width={["100%", "500px"]}>
       <SignupForm />
     </Box>
-    <Heading color="white" mb="30px" mt={5} fontWeight="500" fontSize={[2, 3]}>
+    <Heading color="white" mb="30px" mt={5} fontWeight="500" fontSize={[3]}>
       What You'll Learn
     </Heading>
     <SellingPoint
@@ -39,13 +39,7 @@ const Intro = () => (
       color={color.red}
       label="How to collaborate using Figma"
     />
-    <Heading
-      fontSize={[2, 3]}
-      fontWeight="500"
-      mb={3}
-      mt={5}
-      color={color.white}
-    >
+    <Heading fontSize={[3]} fontWeight="500" mb={3} mt={5} color={color.white}>
       What is this?
     </Heading>
     <P>
@@ -58,7 +52,7 @@ const Intro = () => (
       I’ve developed resources so that no matter what your role is, you can get started with Figma. Whether you are an aspiring designer or your just a curious creative, you’ll gain confidence to work on your own projects in Figma. 
     `}</P>
 
-    <Heading color="white" mb={3} mt={5} fontWeight="500" fontSize={[2, 3]}>
+    <Heading color="white" mb={3} mt={5} fontWeight="500" fontSize={[3]}>
       Get the first lesson now
     </Heading>
     <Box mb={4} width={["100%", "500px"]}>
