@@ -7,7 +7,9 @@ const Head = function (props) {
   const description = props.description
     ? props.description
     : "A Free Email Course for Beginners";
-  const image = props.image ? props.image : "learningfigma.com/assets/og.png";
+  const image = props.image
+    ? props.image
+    : "https://learningfigma.com/assets/og.png";
   return (
     <>
       <NextHead>

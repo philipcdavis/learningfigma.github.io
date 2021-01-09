@@ -32,7 +32,7 @@ const Intro = () => (
     <SellingPoint
       number="3"
       color={color.purple}
-      label="How to turn designs into engineering specs"
+      label="How to turn designs into specs"
     />
     <SellingPoint
       number="4"

@@ -39,11 +39,12 @@ const Numeral = styled.div`
 const StyledHeading = styled(Text)`
   margin-left: 20px;
   position: relative;
-  top: 0px;
+  top: 3px;
 
   display: inline-block;
   color: white;
   @media (max-width: 500px) {
+    top: 1px;
     margin-left: 10px;
   }
 `;
