@@ -6,8 +6,8 @@ import SignupForm from "../components/SignupForm";
 import SellingPoint from "../components/SellingPoint";
 
 const Intro = () => (
-  <Box width={["100%", "600px"]} mt={5} mx="auto">
-    <Heading color="white" mb="0px" fontWeight="500" fontSize={[4, 5]}>
+  <Box width={["100%", "600px"]} mt={[4, 5]} mx="auto">
+    <Heading color="white" mb="0px" fontWeight="800" fontSize={[4, 5]}>
       Figma for Beginners
     </Heading>
     <Heading mb="30px" mt={0} fontWeight="500" fontSize={[2, 3]}>
@@ -32,7 +32,7 @@ const Intro = () => (
     <SellingPoint
       number="3"
       color={color.purple}
-      label="How to translate designs into engineering specs"
+      label="How to turn designs into engineering specs"
     />
     <SellingPoint
       number="4"

@@ -15,7 +15,7 @@ export default function Home() {
       <GlobalStyle />
       <Gradients />
       <Box>
-        <Box px={[3, 3, 6]} py={[5, 5]}>
+        <Box px={[3, 3, 6]} py={[4, 5]}>
           <Box width={["100%", "600px"]} mt={4} mx="auto">
             <Nav />
           </Box>
