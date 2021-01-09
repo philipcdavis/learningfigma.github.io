@@ -8,7 +8,7 @@ export const color = {
   gray1: "#606060",
   gray2: "#313131",
   gray3: "#181818",
-  black: "#151515",
+  black: "#1C1515",
 };
 
 export const space = [0, 8, 16, 32, 64, 128, 256, 512];

@@ -7,9 +7,7 @@ const Head = function (props) {
   const description = props.description
     ? props.description
     : "Learn Figma with Georgia";
-  const image = props.image
-    ? props.image
-    : "https://farm2.staticflickr.com/1849/43676135265_5d6be8f15a_o.png";
+  const image = props.image ? props.image : "learningfigma.com/assets/og.png";
   return (
     <>
       <NextHead>
@@ -32,10 +30,10 @@ const Head = function (props) {
               url: image,
             },
           ],
-          site_name: "React for Design",
+          site_name: "Learning Figma",
         }}
         twitter={{
-          handle: "@philipcdavis",
+          handle: "@georgiatdavis",
           cardType: "summary_large_image",
         }}
       />

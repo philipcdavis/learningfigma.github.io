@@ -3,9 +3,9 @@ import { Text, Box, Flex, Link } from "rebass/styled-components";
 
 const Footer = function (props) {
   return (
-    <Flex pt={3} pb={2} flexWrap="wrap">
-      <Box p={3} width={[1]}>
-        <Text textAlign={["center"]} fontSize={[2, 3]}>
+    <Flex pt={3} pb={0} flexWrap="wrap">
+      <Box mt={4} width={[1]}>
+        <Text fontSize={[2, 3]}>
           Created by{" "}
           <Link
             color="white"

@@ -19,10 +19,10 @@ export const media = Object.keys(sizes).reduce((acc, label) => {
 
 export function colorChange(type, opacity = 1) {
   return keyframes`
-    0% { ${type}: ${hexToRGB(color.purple, opacity)}; }
-    33%  { ${type}: ${hexToRGB(color.red, opacity)}; }
-    66% { ${type}: ${hexToRGB(color.green, opacity)}; }
-    100% { ${type}: ${hexToRGB(color.blue, opacity)}; }
+    0% { ${type}: ${hexToRGB(color.red, opacity)}; }
+    33%  { ${type}: ${hexToRGB(color.purple, opacity)}; }
+    66% { ${type}: ${hexToRGB(color.blue, opacity)}; }
+    100% { ${type}: ${hexToRGB(color.green, opacity)}; }
   `;
 }
 

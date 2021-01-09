@@ -21,8 +21,7 @@ export default function Home() {
           </Box>
           <Intro />
 
-          <Box width={["100%", "300px"]} mt={6} mx="auto">
-            <RainbowHr />
+          <Box width={["100%", "600px"]} mt={4} mx="auto">
             <Footer />
           </Box>
         </Box>
