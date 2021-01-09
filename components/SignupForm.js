@@ -4,7 +4,7 @@ import { BtnInput } from "../components/Button";
 import { Box, Flex } from "rebass/styled-components";
 
 const url =
-  "https://twitter.us18.list-manage.com/subscribe/post?u=4b8048aee994b838162f80e3a&amp;id=21229251bb";
+  "https://learningfigma.us7.list-manage.com/subscribe/post?u=113d6a46bd93a27dd0eebdef8&amp;id=69bd159ab2";
 
 class SignupForm extends Component {
   render() {
