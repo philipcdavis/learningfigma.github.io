@@ -22,7 +22,7 @@ const Intro = () => (
     <SellingPoint
       number="1"
       color={color.green}
-      label="Using community resources"
+      label="Installing community resources"
     />
     <SellingPoint
       number="2"
