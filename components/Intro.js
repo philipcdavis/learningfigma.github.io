@@ -11,36 +11,36 @@ const Intro = () => (
       Figma for Beginners
     </Heading>
     <Heading mb="30px" mt={0} fontWeight="500" fontSize={[2, 3]}>
-      A five day email course. Get the first lesson today.
+      A free email course. Get the first lesson today.
     </Heading>
     <Box width={["100%", "500px"]}>
       <SignupForm />
     </Box>
     <Heading color="white" mb="30px" mt={5} fontWeight="500" fontSize={[3]}>
-      What You'll Learn
+      You'll learn how to use Figma for:
     </Heading>
     <SellingPoint
       number="1"
       color={color.green}
-      label="How to get  community resources"
+      label="Using community resources"
     />
     <SellingPoint
       number="2"
       color={color.blue}
-      label="How to create the Figma logo"
+      label="Designing the Figma logo"
     />
     <SellingPoint
       number="3"
       color={color.purple}
-      label="How to turn designs into specs"
+      label="Collaborating and collecting feedback"
     />
     <SellingPoint
       number="4"
       color={color.red}
-      label="How to collaborate using Figma"
+      label="Development and engineering handoff"
     />
     <Heading fontSize={[3]} fontWeight="500" mb={3} mt={5} color={color.white}>
-      What is this?
+      Why did you make this?
     </Heading>
     <P>
       {`
