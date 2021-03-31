@@ -7,9 +7,9 @@ const NotFoundPage = () => (
   <React.Fragment>
     <GlobalStyle />
     <Box p={6}>
-      <Logo flex={1} width="58px" display="block" />
+      <Logo flex={1} ml={0} mb={3} width="58px" display="block" />
       <Heading>404: Page Not found</Heading>
-      <Text>This URL doesn&#39;t exist. Eeep.</Text>
+      <Text>This URL doesnt exist. Eeep.</Text>
 
       <Link href="https://learningfigma.com" color="white">
         Return Home

@@ -5,15 +5,15 @@ import styled from "styled-components";
 const Logo = function (props) {
   let { width = "57px", ...rest } = props;
   return (
-    <Box {...rest}>
+    <Box ml={[0, 4]} {...rest}>
       <LogoLink to="/">
         <svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1">
           <g
             id="Page-1"
             stroke="none"
-            stroke-width="1"
+            strokeWidth="1"
             fill="none"
-            fill-rule="evenodd"
+            fillRule="evenodd"
           >
             <g id="Artboard">
               <g id="Group-3">

@@ -10,8 +10,9 @@ const Card = styled(Box)`
   border-radius: 12px;
   border: 2px solid white;
   animation: ${colorChange("border-color", 0.3)} 10s infinite alternate;
-  max-width: 50em;
-  margin: 0 auto;
+  max-width: 60em;
+  margin-left: auto;
+  margin-right: auto;
 `;
 
 const Strikethrough = styled(Heading)`
@@ -47,10 +48,10 @@ const Smallar = styled(Text)`
 
 const PurchaseCard = function (props) {
   return (
-    <Card px={[3, 4, "100px"]} py={[4, 5]}>
+    <Card mt={["100px", "200px"]} px={[3, 4, "100px"]} py={[4, 5]}>
       <Box width={[1]} css={{ maxWidth: "580px" }} mb={[3, 5]} mx="auto">
         <Heading color="white" textAlign="center" mb={2} fontSize={[4, 5]}>
-          One Time Price
+          Early Bird Pricing
         </Heading>
         <Text
           color="white"
@@ -59,14 +60,13 @@ const PurchaseCard = function (props) {
           mb={4}
           mt={3}
         >
-          Pay once for full access. If you're not satisfied with the course, let
-          me know within 7 days and I'll refund you.
+          Pay once for full access. The price will be increasing soon.
         </Text>
       </Box>
       <Flex flexWrap="wrap">
         <Box width={[1, "500px"]} mx="auto" pt={2}>
           <PurchasePoint>One Time Payment</PurchasePoint>
-          <PurchasePoint>Source Files Included</PurchasePoint>
+          <PurchasePoint>Starter Files Included</PurchasePoint>
           <PurchasePoint>Download or Stream HD Videos</PurchasePoint>
         </Box>
         <Box textAlign="center" mx="auto" width={[1, "250px"]}>
@@ -76,11 +76,11 @@ const PurchaseCard = function (props) {
           <Box>
             <Price lineHeight={1} mb={3} fontSize={[6, 7]} color="white">
               <Smallar fontSize={[3, 4]}>$</Smallar>
-              <Largar>75</Largar>
+              <Largar>40</Largar>
             </Price>
           </Box>
           <BtnRainbow
-            href="https://gumroad.com/l/reactfordesign"
+            href="https://gumroad.com/l/learningfigma"
             target="_blank"
           >
             Get Access Now

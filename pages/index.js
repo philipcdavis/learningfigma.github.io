@@ -6,6 +6,10 @@ import Intro from "../components/Intro";
 import Gradients from "../components/Gradients.js";
 import Footer from "../components/Footer";
 import { Box } from "rebass/styled-components";
+import { RainbowHr } from "../components/Text";
+import Lessons from "../components/Lessons";
+import PurchaseCard from "../components/PurchaseCard";
+import FreqAskedQuestions from "../components/FreqAskedQuestions";
 
 export default function Home() {
   return (
@@ -14,12 +18,19 @@ export default function Home() {
       <GlobalStyle />
       <Gradients />
       <Box>
-        <Box px={[3, 3, 6]} py={[4, 5]}>
-          <Box width={["100%", "600px"]} mt={4} mx="auto">
+        <Box px={[3, 3, 6]} py={[2, 5]}>
+          <Box width={["100%"]} mt={2} mx="auto">
             <Nav />
           </Box>
           <Intro />
-
+        </Box>
+        <RainbowHr />
+        <Box px={[3, 0]}>
+          <Lessons />
+          <PurchaseCard />
+          <FreqAskedQuestions />
+        </Box>
+        <Box px={[3, 3, 6]} py={[2, 5]}>
           <Box width={["100%", "600px"]} mt={4} mx="auto">
             <Footer />
           </Box>

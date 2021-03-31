@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { color } from "./Tile";
 import { hexToRGB } from "./Utils";
 import { Flex, Box } from "rebass";
+import { colorChange } from "../components/Utils";
 
 const Orb = styled.div`
   width: 150%;
@@ -10,12 +11,13 @@ const Orb = styled.div`
   height: 200px;
   background: ${(props) => props.color};
   border-radius: 200px;
-  top: -120px;
+  top: -150px;
   position: relative;
+  animation: ${colorChange("background", 1)} 10s infinite alternate;
 `;
 
 const OrbContainer = styled.div`
-  width: 25%;
+  width: 100%;
 `;
 
 const Container = styled(Box)`
@@ -42,7 +44,7 @@ const Blur = styled.div`
 const Gradients = () => (
   <Container>
     <Flex>
-      <OrbContainer>
+      {/* <OrbContainer>
         <Orb color={color.red} />
       </OrbContainer>
       <OrbContainer>
@@ -50,7 +52,7 @@ const Gradients = () => (
       </OrbContainer>
       <OrbContainer>
         <Orb color={color.blue} />
-      </OrbContainer>
+      </OrbContainer> */}
       <OrbContainer>
         <Orb color={color.green} />
       </OrbContainer>

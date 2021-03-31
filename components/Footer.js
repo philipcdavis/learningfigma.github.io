@@ -3,16 +3,19 @@ import { Text, Box, Flex, Link } from "rebass/styled-components";
 
 const Footer = function (props) {
   return (
-    <Flex pt={3} pb={0} flexWrap="wrap">
-      <Box mt={4} width={[1]}>
+    <Flex pb={2} flexWrap="wrap">
+      <Box width={[1, 1, 1 / 2]} mx="auto">
         <Text fontSize={[2, 3]}>
-          Created by{" "}
+          Get in Contact:
           <Link
             color="white"
-            target="_blank"
-            href="https://twitter.com/georgiatdavis"
+            ml={3}
+            href="mailto:learningfigma@gmail.com?subject=Question for you..."
           >
-            Georgia
+            Email
+          </Link>
+          <Link color="white" ml={3} href="https://twitter.com/georgiatdavis">
+            Twitter
           </Link>
         </Text>
       </Box>

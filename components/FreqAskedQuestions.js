@@ -24,89 +24,52 @@ const FAQ = function (props) {
       <Flex flexWrap="wrap" mb={[4, 5]}>
         <Box pr={[0, 0, 0, 4]} width={[1, 1, 1, 1 / 2]}>
           <Heading fontSize={[2, 3]} color="white" mt={[4, 5]} mb={2}>
-            How much development experience do I need?
+            Why did you make this course?
           </Heading>
           <Text fontSize={[2, "17px"]}>
-            Less than you might think. You need a small amount of JavaScript,
-            CSS, and HTML. If you've never used React before I wrote a longer{" "}
-            <Link
-              color="inherit"
-              href="https://philipcdavis.com/writing/react-is-for-designers/"
-            >
-              article
-            </Link>{" "}
-            about getting started.
+            Over the years I’ve had a lot of people ask how I made the leap into
+            product design. What really launched me into my design career was
+            having design mentors. Finding design mentorship can be really
+            challenging especially when many people are working remotely.
             <br />
-            I would start by scaffolding an app. Once you've poked around a bit
-            you should be able to start this course.
-            <br />
-            <br />
-            If you aren't sure you know enough, I have good news. The React API
-            is small. The more you work in React, the more web fundamentals
-            you'll learn.
+            <br />I made this course so that you can observe my design process
+            in Figma and gain confidence to use Figma for your own projects.
           </Text>
           <Heading fontSize={[2, 3]} color="white" mt={[4, 5]} mb={2}>
-            I've never used React, where should I start?
+            What will I learn?
           </Heading>
           <Text fontSize={[2, "17px"]}>
-            I wrote an{" "}
-            <Link
-              target="_blank"
-              color="inherit"
-              href="https://philipcdavis.com/writing/react-is-for-designers/"
-            >
-              article
-            </Link>{" "}
-            with my two cents. The tldr is:
-            <br />
-            1. Scaffold a project using{" "}
-            <Link
-              target="_blank"
-              color="inherit"
-              href="https://github.com/facebook/create-react-app/"
-            >
-              create-react-app
-            </Link>{" "}
-            and build something simple.
-            <br />
-            2. Read the React docs all the way through.
-          </Text>
-          <Heading fontSize={[2, 3]} color="white" mt={[4, 5]} mb={2}>
-            Do you offer discounts?
-          </Heading>
-          <Text fontSize={[2, "17px"]}>
-            Not currently. If you're looking for free resources, I made a
-            collection of{" "}
-            <Link
-              color="inherit"
-              target="_blank"
-              href="https://react.design/links"
-            >
-              free react links for designers
-            </Link>
-            .
+            I’ll walk you through my design process from starting with an idea
+            all the way to designing an interactive design prototype. Some of
+            the topics covered include:
+            <ul>
+              <li>Basic tools by designing the Figma logo</li>
+              <li>Figma collaboration and handoff features</li>
+              <li>Brainstorming and wireframing </li>
+              <li>Advanced tools like components and autolayout </li>
+              <li>Prototyping and animations </li>
+            </ul>
+            You’ll develop these Figma skills all by working on a design
+            project.
           </Text>
         </Box>
 
         <Box pl={[0, 0, 0, 4]} width={[1, 1, 1, 1 / 2]}>
           <Heading fontSize={[2, 3]} color="white" mt={[4, 5]} mb={2}>
-            Why React instead of other JS frameworks?
+            Why Figma instead of other design tools?
           </Heading>
           <Text fontSize={[2, "17px"]}>
-            There are lots of excellent JS libraries available. If you are
-            currently learning or using one of these libraries I don't think you
-            need to switch. React was the first development tool that I felt
-            productive with as a designer. I recommend React over other
-            JavaScript libraries for the following reasons:
+            There are a lot of design tools out there, so why are we learning
+            Figma?
             <br />
             <br />
-            1. Maturity
-            <br />
-            2. Adoption
-            <br />
-            3. Ecosystem
-            <br />
-            4. Framer X
+            There are three main reasons why I like Figma:
+            <ol>
+              <li>Figma can be used for free.</li>
+              <li>Figma is built for collaboration.</li>
+              <li>Figma is an industry standard.</li>
+            </ol>
+            Figma makes design accessible to everyone.
           </Text>
 
           <Heading fontSize={[2, 3]} color="white" mt={[4, 5]} mb={2}>
@@ -116,21 +79,13 @@ const FAQ = function (props) {
             If you don't like the course let me know within 7 days of purchase
             and i'll send you a refund.
           </Text>
-
           <Heading fontSize={[2, 3]} color="white" mt={[4, 5]} mb={2}>
-            Will I need to use the terminal?
+            I've never used Figma, where should I start?
           </Heading>
           <Text fontSize={[2, "17px"]}>
-            I'd recommend learning a few basic commands on the terminal so that
-            you scaffold a React app. I wrote a{" "}
-            <Link
-              color="inherit"
-              target="_blank"
-              href="https://react.design/terminal"
-            >
-              short guide
-            </Link>{" "}
-            that could be helpful.
+            No worries! In the very first lesson, I’ll walk you through creating
+            an account in Figma, opening your first Figma file, and exploring
+            the Figma community.
           </Text>
         </Box>
       </Flex>
@@ -139,7 +94,7 @@ const FAQ = function (props) {
         <Link
           color="inherit"
           target="_blank"
-          href="https://twitter.com/philipcdavis"
+          href="https://twitter.com/georgiatdavis"
         >
           Let me know
         </Link>
@@ -149,7 +104,7 @@ const FAQ = function (props) {
         Ready to start?
       </Text>
       <Text mb={4} textAlign={"center"}>
-        <BtnRainbow href="https://gumroad.com/l/reactfordesign">
+        <BtnRainbow href="https://gumroad.com/l/learningfigma" target="_blank">
           Get Access Now
         </BtnRainbow>
       </Text>
