@@ -17,6 +17,10 @@ const Numeral = styled.div`
   color: ${color.black};
   text-align: center;
   padding-top: 3px;
+
+  @media (max-width: 630px) {
+    transform: scale(0.7);
+  }
 `;
 
 export default SellingPoint;
