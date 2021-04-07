@@ -23,7 +23,7 @@ const Intro = () => (
       </P>
 
       <P>{`
-      Whether you are an aspiring designer, you collaborate on a team, or you just want to make something fun, you’ll gain skills to make your own design projects in Figma. 
+      Whether you are an aspiring designer or just want to make something fun, you’ll gain skills to make your own design projects in Figma. 
     `}</P>
       <P>{`
       I’ve created this course so that no matter what your experience, you can get started with Figma.

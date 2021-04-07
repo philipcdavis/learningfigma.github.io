@@ -29,8 +29,7 @@ const FAQ = function (props) {
           <Text fontSize={[2, "17px"]}>
             Over the years I’ve had a lot of people ask how I made the leap into
             product design. What really launched me into my design career was
-            having design mentors. Finding design mentorship can be really
-            challenging especially when many people are working remotely.
+            having design mentors. Finding design mentorship is hard.
             <br />
             <br />I made this course so that you can observe my design process
             in Figma and gain confidence to use Figma for your own projects.
