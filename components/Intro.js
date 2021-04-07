@@ -18,7 +18,7 @@ const Intro = () => (
     <Box width={["100%", "530px"]} mt={[3, 4]} mx="auto">
       <P>
         {`
-        Figma is a powerful design tool. I made this course to make my Figma more accessible no matter your background. I’ll guide you through my process as we design an app together.
+        Figma is a powerful design tool. I created this course to help more people learn Figma. I’ll guide you through my process as we design an app together.
       `}
       </P>
 
