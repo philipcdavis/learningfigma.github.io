@@ -80,7 +80,11 @@ const PurchaseCard = function (props) {
             </Price>
           </Box>
           <BtnRainbow
-            href="https://gumroad.com/l/learningfigma"
+            href={
+              props.affiliate
+                ? props.affiliate
+                : "https://gumroad.com/l/learningfigma"
+            }
             target="_blank"
           >
             Get Access Now

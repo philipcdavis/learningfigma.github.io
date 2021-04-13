@@ -103,7 +103,14 @@ const FAQ = function (props) {
         Ready to start?
       </Text>
       <Text mb={4} textAlign={"center"}>
-        <BtnRainbow href="https://gumroad.com/l/learningfigma" target="_blank">
+        <BtnRainbow
+          href={
+            props.affiliate
+              ? props.affiliate
+              : "https://gumroad.com/l/learningfigma"
+          }
+          target="_blank"
+        >
           Get Access Now
         </BtnRainbow>
       </Text>
