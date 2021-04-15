@@ -12,7 +12,7 @@ import PurchaseCard from "../components/PurchaseCard";
 import FreqAskedQuestions from "../components/FreqAskedQuestions";
 
 export default function Home() {
-  const affiliateUrl = "https://reactjs.org/docs/context.html";
+  const affiliateUrl = "https://gumroad.com/a/383259763";
   return (
     <React.Fragment>
       <Head title="Learning Figma" description="" />
