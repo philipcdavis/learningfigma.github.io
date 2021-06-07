@@ -3,7 +3,7 @@ import { Text, Box, Flex, Link } from "rebass/styled-components";
 
 const Footer = function (props) {
   return (
-    <Flex pb={2} flexWrap="wrap">
+    <Flex textAlign="center" pb={2} flexWrap="wrap">
       <Box width={[1, 1, 1 / 2]} mx="auto">
         <Text fontSize={[2, 3]}>
           Get in Contact:
@@ -19,6 +19,9 @@ const Footer = function (props) {
           </Link>
         </Text>
       </Box>
+      <Text mx="auto" mt={3}>
+        Learning Figma is not Affiliated with Figma
+      </Text>
     </Flex>
   );
 };

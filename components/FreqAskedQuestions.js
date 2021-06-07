@@ -78,13 +78,13 @@ const FAQ = function (props) {
             If you don't like the course let me know within 7 days of purchase
             and i'll send you a refund.
           </Text>
+
           <Heading fontSize={[2, 3]} color="white" mt={[4, 5]} mb={2}>
-            I've never used Figma, where should I start?
+            Is this course affiliated with Figma?
           </Heading>
           <Text fontSize={[2, "17px"]}>
-            No worries! In the very first lesson, I’ll walk you through creating
-            an account in Figma, opening your first Figma file, and exploring
-            the Figma community.
+            No. This course is neither created by Figma the company, nor
+            affliated with them.
           </Text>
         </Box>
       </Flex>
