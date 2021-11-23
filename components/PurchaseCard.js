@@ -51,7 +51,7 @@ const PurchaseCard = function (props) {
     <Card mt={["100px", "200px"]} px={[3, 4, "100px"]} py={[4, 5]}>
       <Box width={[1]} css={{ maxWidth: "580px" }} mb={[3, 5]} mx="auto">
         <Heading color="white" textAlign="center" mb={2} fontSize={[4, 5]}>
-          Introductory Pricing
+          🍁 Fall Sale 🍁
         </Heading>
         <Text
           color="white"
