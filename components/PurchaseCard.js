@@ -71,12 +71,12 @@ const PurchaseCard = function (props) {
         </Box>
         <Box textAlign="center" mx="auto" width={[1, "250px"]}>
           <Strikethrough mt={0} fontSize={[3, 4]} color={color.gray1}>
-            $100
+            $50
           </Strikethrough>
           <Box>
             <Price lineHeight={1} mb={3} fontSize={[6, 7]} color="white">
               <Smallar fontSize={[3, 4]}>$</Smallar>
-              <Largar>49</Largar>
+              <Largar>25</Largar>
             </Price>
           </Box>
           <BtnRainbow
